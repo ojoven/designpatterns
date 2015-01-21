@@ -8,7 +8,7 @@ class Quack implements QuackBehaviour {
     }
 
     public function quack() {
-        echo "quack!";
+        echo "quack!" . PHP_EOL;
     }
 
 }
